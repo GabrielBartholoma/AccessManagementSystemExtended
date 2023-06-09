@@ -9,13 +9,12 @@ import org.springframework.stereotype.Component;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Customer {
+public class Hacker {
 
-    private String name;
-    private int age;
-    private int Score;
+    private static final String hackerName = "unknown";
+    private static final int hackerAge = 999;
+    private int hackerScore = 99;
 
-    public Customer() {
+    public Hacker() {
     }
 }
-
